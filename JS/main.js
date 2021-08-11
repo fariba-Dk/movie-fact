@@ -55,12 +55,6 @@ function movieSelected(id) {
   return false;
 }
 
-function movieSelected(id) {
-  sessionStorage.setItem('movieId', id);
-  window.location = 'movie.html';
-  return false;
-}
-
 function getMovie() {
   let movieId = sessionStorage.getItem('movieId');
 
