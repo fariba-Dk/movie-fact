@@ -2,6 +2,16 @@
 #movie img {
   width: 100%;
 }
+.a.navbar-brand {
+  padding-top: 3.3125rem;
+  padding-bottom: 3.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 3rem;
+  
+}
 
 @media (min-width: 960px) {
   #movies .col-md-3 .well {
@@ -12,3 +22,4 @@
     height: 460px;
   }
 }
+
